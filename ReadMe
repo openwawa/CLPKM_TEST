@@ -4,3 +4,4 @@
 -》在include/CLPKM/clpkm.h中通过宏开关实现对调试细节的输出
 	#define CLPKM_DEBUG_PRINT	1		//无证书运算开启打印调试
 	#define CLPKM_VERIFY_MODE	1		//国标文档参数验证模式
+-》wasm3 仓库：https://github.com/wasm3/wasm3.git
