@@ -1,0 +1,6 @@
+###该项目为使用基于SM2的无证书及其隐式证书公钥机制的算法实现
+	#采用Gmssl相关的大数运算以及标准SM2、SM3接口
+	
+-》在include/CLPKM/clpkm.h中通过宏开关实现对调试细节的输出
+	#define CLPKM_DEBUG_PRINT	1		//无证书运算开启打印调试
+	#define CLPKM_VERIFY_MODE	1		//国标文档参数验证模式
